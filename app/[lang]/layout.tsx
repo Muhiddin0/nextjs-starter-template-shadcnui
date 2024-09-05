@@ -13,6 +13,8 @@ import NextTopLoader from "nextjs-toploader";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
+import { Toaster } from "@/components/ui/toaster";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -37,6 +39,7 @@ export default async function RootLayout({
               <ReactQueryClientProvider>
                 <NextTopLoader />
                 {children}
+                <Toaster />
                 <ScreenQueryInfo />
               </ReactQueryClientProvider>
             </AuthProvider>

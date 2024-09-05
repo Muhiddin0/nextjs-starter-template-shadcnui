@@ -45,6 +45,7 @@
     "date-fns": "^3.6.0",
     "i18next": "^23.14.0",
     "i18next-browser-languagedetector": "^8.0.0",
+    "lucide": "^0.433.0",
     "lucide-react": "^0.438.0",
     "negotiator": "^0.6.3",
     "next": "14.2.7",
@@ -54,6 +55,7 @@
     "next-translate": "^2.6.2",
     "nextjs-toploader": "^3.6.15",
     "react": "^18",
+    "react-colorful": "^5.6.1",
     "react-day-picker": "^8.10.1",
     "react-dom": "^18",
     "react-hook-form": "^7.53.0",
@@ -62,7 +64,9 @@
     "sonner": "^1.5.0",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
-    "zod": "^3.23.8"
+    "values.js": "^2.1.1",
+    "zod": "^3.23.8",
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@types/negotiator": "^0.6.3",

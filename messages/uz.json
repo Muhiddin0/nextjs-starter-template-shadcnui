@@ -1,5 +1,35 @@
 {
   "HomePage": {
-    "title": "Salom olam!"
+    "title": "Mening arxitekturam bilan ishlarni 10x tezlashtiring",
+    "description": "Yangi yaratilgan Next.js loyihangizda yuqori samaradorlik va rivojlanish qulayligini ta'minlash uchun bir nechta ilg'or texnologiyalarni muvaffaqiyatli qo'lladiz. Sizning texnologiya stack'laringiz quyidagilardan iborat",
+    "moduls": {
+      "lang": {
+        "title": "Til",
+        "description": "Istalgan tilni osonlik bilan ishlatish mumkin va bularni hammasi boost qilingan",
+        "link": "https://next-intl-docs.vercel.app/"
+      },
+      "theme": {
+        "title": "Mavzu",
+        "description": "Sistemaga moslashadigan ishlatishga qulay ish tezligini oshiradigan mavzu boshqargich",
+        "link": "https://ui.shadcn.com/docs/dark-mode"
+      },
+      "screen": {
+        "title": "Screen",
+        "description": "Screen o'lchamini avtomati aniqlash. Responsivlikni yanada aniq qilish va ih tezligini 3x kuchaytirish"
+      },
+      "class": {
+        "title": "Class filterlovchi",
+        "description": "Ushbu plagin sizning shablonlaringizni Tailwind CSS sinflarini o'z ichiga olgan sinf atributlari uchun skanerlaydi va keyin tavsiya etilgan sinf tartibiga muvofiq ushbu sinflarni avtomatik ravishda saralaydi .",
+        "link": "https://tailwindcss.com/blog/automatic-class-sorting-with-prettier"
+      },
+      "copy": {
+        "title": "Nusxalash",
+        "description": "Matin Va Rasimlarni Nusxalash uchun oldindan yozilgan kuchli utilita"
+      },
+      "api": {
+        "title": "API",
+        "description": "Super kuchaytirilgan Axios va React query codelari siz uchun xizmat qiladi. Hato dynamic routing query ham"
+      }
+    }
   }
 }

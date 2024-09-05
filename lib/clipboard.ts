@@ -55,12 +55,12 @@ export const copyTxtToClipboard = async (
     try {
       await navigator.clipboard.writeText(text);
       return {
-        message: "Rasim linki vaqtinchalik hotiraga saqlandi",
+        message: "Matin vaqtinchalik hotiraga saqlandi",
         status: true,
       };
     } catch (err) {
       return {
-        message: "Rasim linki saqlashda xatolik yuz berdi",
+        message: "Matin saqlashda xatolik yuz berdi",
         status: false,
       };
     }
@@ -77,7 +77,7 @@ interface CopyClipboardResponse {
   image?: ClipBoardResponse;
 }
 
-export const handleCopy = async ({
+export const copyClipBoard = async ({
   text,
   img,
 }: {

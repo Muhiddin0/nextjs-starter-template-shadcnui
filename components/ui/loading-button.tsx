@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "./button";
 import clsx from "clsx";
 
-import LoadingSpinner from "@/app/components/ui/loaders/loading-spinder";
+import LoadingSpinner from "@/app/[lang]/components/ui/loaders/loading-spinder";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
