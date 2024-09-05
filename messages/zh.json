@@ -1,0 +1,35 @@
+{
+  "HomePage": {
+    "title": "通过我的架构将工作流程加速10倍",
+    "description": "您已成功应用多种先进技术，以确保新创建的Next.js项目具有高性能和开发便利性。您的技术栈包括以下内容：",
+    "moduls": {
+      "lang": {
+        "title": "语言",
+        "description": "轻松处理任何语言，一切都得到了增强。",
+        "link": "https://next-intl-docs.vercel.app/"
+      },
+      "theme": {
+        "title": "主题",
+        "description": "一个适应系统的主题管理器，提升工作速度。",
+        "link": "https://ui.shadcn.com/docs/dark-mode"
+      },
+      "screen": {
+        "title": "屏幕",
+        "description": "自动确定屏幕尺寸。增强响应性，将速度提高3倍。"
+      },
+      "class": {
+        "title": "类筛选器",
+        "description": "该插件扫描您的模板中的类属性，包含Tailwind CSS类，然后根据推荐的类顺序自动排序这些类。",
+        "link": "https://tailwindcss.com/blog/automatic-class-sorting-with-prettier"
+      },
+      "copy": {
+        "title": "复制",
+        "description": "一个强大的工具，用于复制文本和图像。"
+      },
+      "api": {
+        "title": "API",
+        "description": "超强的Axios和React Query代码为您提供服务。此外，还处理动态路由查询。"
+      }
+    }
+  }
+}

@@ -1,5 +1,35 @@
 {
   "HomePage": {
-    "title": "Hello world!"
+    "title": "Accelerate Your Workflow 10x with My Architecture",
+    "description": "You have successfully applied several advanced technologies to ensure high performance and ease of development in your newly created Next.js project. Your technology stack includes the following:",
+    "moduls": {
+      "lang": {
+        "title": "Language",
+        "description": "Easily work with any language, and everything is enhanced.",
+        "link": "https://next-intl-docs.vercel.app/"
+      },
+      "theme": {
+        "title": "Theme",
+        "description": "A theme manager that adapts to the system and improves work speed.",
+        "link": "https://ui.shadcn.com/docs/dark-mode"
+      },
+      "screen": {
+        "title": "Screen",
+        "description": "Automatically determines screen size. Enhances responsiveness and boosts speed by 3x."
+      },
+      "class": {
+        "title": "Class Filter",
+        "description": "This plugin scans your templates for class attributes containing Tailwind CSS classes and then automatically sorts these classes according to the recommended class order.",
+        "link": "https://tailwindcss.com/blog/automatic-class-sorting-with-prettier"
+      },
+      "copy": {
+        "title": "Copy",
+        "description": "A powerful utility for copying text and images."
+      },
+      "api": {
+        "title": "API",
+        "description": "Supercharged Axios and React Query codes serve you. Also handles dynamic routing queries."
+      }
+    }
   }
 }

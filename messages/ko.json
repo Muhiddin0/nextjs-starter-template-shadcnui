@@ -1,0 +1,35 @@
+{
+  "HomePage": {
+    "title": "내 아키텍처로 작업 흐름을 10배 가속화하세요",
+    "description": "새로 생성한 Next.js 프로젝트에서 고성능과 개발의 용이성을 보장하기 위해 여러 가지 고급 기술을 성공적으로 적용했습니다. 기술 스택에는 다음이 포함됩니다:",
+    "moduls": {
+      "lang": {
+        "title": "언어",
+        "description": "모든 언어를 쉽게 사용할 수 있으며, 모든 것이 향상되었습니다.",
+        "link": "https://next-intl-docs.vercel.app/"
+      },
+      "theme": {
+        "title": "테마",
+        "description": "시스템에 적응하여 작업 속도를 향상시키는 테마 관리자.",
+        "link": "https://ui.shadcn.com/docs/dark-mode"
+      },
+      "screen": {
+        "title": "화면",
+        "description": "화면 크기를 자동으로 판별합니다. 반응성을 향상시키고 속도를 3배로 증가시킵니다."
+      },
+      "class": {
+        "title": "클래스 필터",
+        "description": "이 플러그인은 Tailwind CSS 클래스가 포함된 클래스 속성을 검색하고, 자동으로 권장 클래스 순서에 따라 이 클래스들을 정렬합니다.",
+        "link": "https://tailwindcss.com/blog/automatic-class-sorting-with-prettier"
+      },
+      "copy": {
+        "title": "복사",
+        "description": "텍스트와 이미지를 복사하는 강력한 유틸리티."
+      },
+      "api": {
+        "title": "API",
+        "description": "강력한 Axios 및 React Query 코드를 제공합니다. 또한 동적 라우팅 쿼리도 처리합니다."
+      }
+    }
+  }
+}

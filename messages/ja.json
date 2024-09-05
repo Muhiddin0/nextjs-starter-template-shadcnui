@@ -1,0 +1,35 @@
+{
+  "HomePage": {
+    "title": "私のアーキテクチャでワークフローを10倍加速",
+    "description": "あなたは新しく作成したNext.jsプロジェクトにおいて、高パフォーマンスと開発の容易さを確保するために、いくつかの先進技術を成功裏に適用しました。あなたの技術スタックには次のものが含まれています:",
+    "moduls": {
+      "lang": {
+        "title": "言語",
+        "description": "どの言語でも簡単に作業でき、すべてが強化されています。",
+        "link": "https://next-intl-docs.vercel.app/"
+      },
+      "theme": {
+        "title": "テーマ",
+        "description": "システムに適応し、作業速度を向上させるテーママネージャー。",
+        "link": "https://ui.shadcn.com/docs/dark-mode"
+      },
+      "screen": {
+        "title": "画面",
+        "description": "画面サイズを自動的に判別します。レスポンシブ性を向上させ、速度を3倍にします。"
+      },
+      "class": {
+        "title": "クラスフィルター",
+        "description": "このプラグインは、Tailwind CSSクラスを含むクラス属性を含むテンプレートをスキャンし、その後、自動的に推奨されるクラスの順序に従ってこれらのクラスをソートします。",
+        "link": "https://tailwindcss.com/blog/automatic-class-sorting-with-prettier"
+      },
+      "copy": {
+        "title": "コピー",
+        "description": "テキストや画像をコピーするための強力なユーティリティ。"
+      },
+      "api": {
+        "title": "API",
+        "description": "超強化されたAxiosとReact Queryコードが提供されます。また、動的ルーティングクエリも処理します。"
+      }
+    }
+  }
+}

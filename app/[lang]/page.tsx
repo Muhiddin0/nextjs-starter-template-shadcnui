@@ -92,14 +92,9 @@ export default function HomePage({ params: { lang } }: Props) {
 
   return (
     <div className="container mx-auto px-4 py-16 text-center">
-      <h2 className="mb-4 text-3xl font-bold">
-        Mening arxitekturam bilan ishlarni 10x tezlashtiring
-      </h2>
+      <h2 className="mb-4 text-3xl font-bold">{t("title")}</h2>
       <p className="mx-auto mb-8 max-w-2xl text-muted-foreground">
-        Yangi yaratilgan Next.js loyihangizda yuqori samaradorlik va rivojlanish
-        qulayligini ta'minlash uchun bir nechta ilg'or texnologiyalarni
-        muvaffaqiyatli qo'lladiz. Sizning texnologiya stack'laringiz
-        quyidagilardan iborat
+        {t("description")}
       </p>
       <div className="mx-auto mb-12 h-1 w-16 bg-primary"></div>
 
