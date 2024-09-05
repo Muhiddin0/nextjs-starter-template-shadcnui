@@ -20,7 +20,7 @@ yarn create next-app --example https://github.com/Muhiddin0/nextjs-starter-templ
 pnpm create next-app --example https://github.com/Muhiddin0/nextjs-starter-template-shadcnui.git,
 ```
 
-# pnpm
+# bun
 
 ```
 bun create next --template https://github.com/Muhiddin0/nextjs-starter-template-shadcnui.git
