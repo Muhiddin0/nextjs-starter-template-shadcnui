@@ -23,5 +23,5 @@ pnpm create next-app --example https://github.com/Muhiddin0/nextjs-starter-templ
 # bun
 
 ```
-bun create next --template https://github.com/Muhiddin0/nextjs-starter-template-shadcnui.git
+bun create next-app --template https://github.com/Muhiddin0/nextjs-starter-template-shadcnui.git
 ```
