@@ -14,6 +14,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
 import { Toaster } from "@/components/ui/toaster";
+import Footer from "./components/ui/footer/footer";
+import Header from "./components/ui/header/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,16 +36,16 @@ export default async function RootLayout({
     <html lang={locale}>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <AuthProvider>
-              <ReactQueryClientProvider>
-                <NextTopLoader />
-                {children}
-                <Toaster />
-                <ScreenQueryInfo />
-              </ReactQueryClientProvider>
-            </AuthProvider>
-          </ThemeProvider>
+          <AuthProvider>
+            <ReactQueryClientProvider>
+              <NextTopLoader />
+              <Header />
+              {children}
+              <Footer />
+              <Toaster />
+              <ScreenQueryInfo />
+            </ReactQueryClientProvider>
+          </AuthProvider>
         </NextIntlClientProvider>
       </body>
     </html>
