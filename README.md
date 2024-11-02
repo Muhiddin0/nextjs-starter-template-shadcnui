@@ -5,7 +5,7 @@
 # npm
 
 ```
-npx create-next-app@latest --example https://github.com/Muhiddin0/nextjs-starter-template-shadcnui.git,
+npx create-next-app@latest nextjs-dashboard --example "https://github.com/Muhiddin0/nextjs-starter-template-shadcnui"
 ```
 
 # yarn
