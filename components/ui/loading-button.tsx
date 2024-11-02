@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "./button";
 import clsx from "clsx";
 
-import LoadingSpinner from "@/app/[lang]/components/ui/loaders/loading-spinder";
+import { Loader2 } from "lucide-react";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
@@ -24,7 +24,7 @@ const ButtonLoading = ({
         className,
       )}
     >
-      {isLoading && <LoadingSpinner siz={20} />}
+      {isLoading && <Loader2 size={18} />}
       {children}
     </Button>
   );
